@@ -11,7 +11,7 @@ module.exports = (app) => {
         db.push(note);
         //writes to database
         dbWrite();
-        //need a response or the express app will hang
+        //need a response or the express app will hang.
         res.send('done!');
     })
 
